@@ -1,0 +1,28 @@
+{{>headLink}}
+{{>header}}
+{{>main}}
+    <div  style="  width: 100%;display:flex;justify-content:center;margin-top:9vw ;" >
+ 
+  {{!-- post request hocha /register route a ata bojai  redirect hoba res.render  a ja sai fila--}}
+<form action="/login" method="POST" style="display: flex;flex-direction:column ;width:40vw; padding:4px;  border:2px soild black;">
+    
+
+<div style="display:flex;margin:10px 5px;flex-direction:column"> 
+        <a style="padding: 5px 0;">Email:</a>
+<input  type="email"  id="" placeholder="enter email" name="email">
+</div>
+<div style="display:flex;margin:10px 5px;flex-direction:column"> 
+        <a style="padding: 5px 0;">Password:</a>
+
+<input type="password" name="password" id="" placeholder="enter pasword">
+</div>
+ 
+<button type="submit"> submit</button>
+</form>
+               
+</div>
+        </div>
+</section>
+    </main>
+    {{>footer}}
+    {{>footerLink}}
